@@ -22,7 +22,7 @@ const userSignup = async (req, res) => {
     const payload = {
       email,
       name,
-      role: "GENERAL",
+      role: "user",
       password: hashPassword
     };
 
